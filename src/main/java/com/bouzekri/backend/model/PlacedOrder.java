@@ -14,19 +14,19 @@ class PlacedOrder {
     private Long id;
 
     @Column
-    private String restaurant_id;
+    private String restaurantId;
 
     @Column
-    private String customer_id;
+    private String customerId;
 
     @Column
-    private Instant order_time;
+    private Instant orderTime;
 
     @Column
-    private String estimated_delivery_time;
+    private String estimatedDeliveryTime;
 
     @Column
-    private String delivery_address;
+    private String deliveryAddress;
 
     @Column
     private int price;

@@ -1,6 +1,6 @@
 package com.bouzekri.backend.service;
 
-import com.bouzekri.backend.Dto.SubCategoryDto;
+import com.bouzekri.backend.dto.SubCategoryDto;
 import com.bouzekri.backend.model.SubCategory;
 import com.bouzekri.backend.repository.SubCategoryRepository;
 import org.springframework.beans.factory.annotation.Autowired;

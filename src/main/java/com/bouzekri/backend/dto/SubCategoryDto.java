@@ -1,4 +1,4 @@
-package com.bouzekri.backend.Dto;
+package com.bouzekri.backend.dto;
 
 import lombok.Getter;
 import lombok.Setter;

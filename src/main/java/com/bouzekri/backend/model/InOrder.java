@@ -15,18 +15,18 @@ public @Data class InOrder {
 
     @NotBlank
     @Column
-    private String placed_order_id;
+    private String placedOrderId;
 
     @NotBlank
     @Column
-    private String menu_item_id;
+    private String menuItemId;
 
     @NotBlank
     @Column
     private String quantity;
 
     @Column
-    private String item_price;
+    private String itemPrice;
 
     @Column
     private String price;

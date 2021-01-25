@@ -3,7 +3,6 @@ package com.bouzekri.backend.model;
 import lombok.Data;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotBlank;
 
 @Entity
 @Table

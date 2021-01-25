@@ -15,22 +15,22 @@ class Comment {
     private Long id;
 
     @Column
-    private String placed_order_id;
+    private String placedOrderId;
 
     @Column
-    private String customer_id;
+    private String customerId;
 
     @Column
-    private String comment_text;
+    private String commentText;
 
     @Column
     private Instant ts;
 
     @Column
-    private Boolean is_complaint;
+    private Boolean isComplaint;
 
     @Column
-    private Boolean is_praise;
+    private Boolean isPraise;
 
 
 }
